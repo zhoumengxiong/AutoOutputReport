@@ -1,0 +1,18 @@
+{
+    "python.unitTest.unittestArgs": [
+        "-v",
+        "-s",
+        "./excercises",
+        "-p",
+        "test*.py"
+    ],
+    "python.unitTest.pyTestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+    "python.unitTest.unittestEnabled": false,
+    "python.unitTest.promptToConfigure": false,
+    "python.formatting.provider": "autopep8",
+    "editor.fontSize": 12,
+    "editor.formatOnPaste": true,
+    "editor.minimap.enabled": false,
+    "python.pythonPath": "F:\\Python_project\\Anaconda3\\python.exe"
+}
