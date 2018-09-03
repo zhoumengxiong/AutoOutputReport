@@ -29,7 +29,7 @@ def get_dict_version_country():
     # if id2 == id1:
     # uids1.append(id2)
     # 将UID列表拼接成以逗号分隔的字符串
-    uids_string = ','.join([str(x) for x in uids1])
+    # uids_string = ','.join([str(x) for x in uids1])
     print(len(uids1))
     # 将UID字符串写入到本地磁盘
     """uids_file = open('uids1.txt', 'w')
