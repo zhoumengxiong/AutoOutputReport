@@ -159,7 +159,7 @@ last_wk1 = str(18) + str(getNowYearWeek()[1] - 2)
 model = "A22"
 countries = {'India': '印度'}
 config = {
-    'host': "192.168.1.105",  # 本地的话就是这个
+    'host': "localhost",  # 本地的话就是这个
     'user': "Dream",  # 输入你的数据库账号
     'password': "Dream123$",  # 以及数据库密码
     'db': "raw_data",  # 数据库名（database名）
