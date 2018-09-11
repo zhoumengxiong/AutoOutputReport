@@ -17,16 +17,17 @@ x = np.array(x)
 n_clusters = 5
 
 # 现在把数据和对应的分类数放入聚类函数中进行聚类
-cls=KMeans(n_clusters).fit(x)
+cls = KMeans(n_clusters).fit(x)
 
 # x中每项所属分类的一个列表
 cls.labels_
 
 # 画图
-markers=['^','x','o','*','+']
+markers = ['^', 'x', 'o', '*', '+']
 for i in range(n_clusters):
-    members=cls.labels_==i
-    plt.scatter(x[members,0],x[members,1],s=60,marker=markers[i],alpha=0.5)
+    members = cls.labels_ == i
+    plt.scatter(x[members, 0], x[members, 1],
+                s=60, marker=markers[i], alpha=0.5)
 
 plt.title('')
 plt.show()
